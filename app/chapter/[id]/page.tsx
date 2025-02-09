@@ -27,7 +27,7 @@ export default function ChapterQuizPage () {
     setQuestions(chapter, chapterQuestions); // Set questions in the store
     setChapter(chapter); // Set the current chapter in the store
   }
-  }, [setQuestions]);
+  });
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
