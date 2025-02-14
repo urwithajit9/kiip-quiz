@@ -31,7 +31,7 @@ function QuizPanelWithProgressBar() {
 
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 w-full max-w-xl mx-auto text-center">
-      <h1 className="text-2xl font-bold text-gray-800">Choose correct Word!</h1>
+      <h1 className="text-2xl font-bold text-gray-800">Choose correct Option!</h1>
 
 
       {quizFinished ? (

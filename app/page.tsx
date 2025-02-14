@@ -25,8 +25,8 @@ export default function Home() {
   
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-8">
-        <h1 className="text-4xl font-bold mb-6">KIIP Quiz: Select a Chapter</h1>
-        <div className="grid grid-cols-6 gap-6">
+        <h1 className="text-4xl font-bold mb-6 text-teal-500">KIIP Quiz: Select a Chapter</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-6">
           {chaptersWithColors.map((chapter) => (
             <Link
               key={chapter.chapter_number}
@@ -34,10 +34,11 @@ export default function Home() {
               passHref
             >
               <div
-                className={`w-60 h-40 flex flex-col items-center justify-center text-white text-xl font-semibold rounded-lg shadow-lg cursor-pointer transition-transform transform hover:scale-105 ${chapter.bgColor}`}
+                className="w-80 h-60 p-4 flex flex-col items-center justify-center text-white text-xl font-semibold rounded-lg shadow-lg cursor-pointer transition-transform transform hover:scale-105 bg-[#92d3d3]"
               >
                 <div className="mb-2">{chapter.chapter_number} </div>
                 <div>{chapter.chapter_name} </div>
+                <div className="justify-center items-center">{chapter.chapter_name_eng} </div>
                 {/* <div className="text-sm mt-1 justify-center">({chapter.chapter_description}) </div> */}
                 
               </div>

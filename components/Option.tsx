@@ -13,7 +13,7 @@ interface OptionProps {
 function Option({ option, onSelect, isSelected, isCorrect }: OptionProps) {
   return (
     <button
-      className={`flex items-center justify-between w-full p-3 rounded-lg shadow-md m-2 text-lg font-semibold transition-all duration-200 
+      className={`flex items-center justify-between w-full p-3 rounded-lg shadow-md m-2 text-2xl font-semibold transition-all duration-200 
         ${isSelected ? (isCorrect ? "bg-green-400" : "bg-red-400") : "bg-orange-300 hover:bg-orange-400"} 
         cursor-pointer`}
       onClick={() => onSelect(option)}

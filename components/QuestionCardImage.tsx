@@ -19,8 +19,8 @@ const QuestionCardImage: React.FC<QuestionCardImageProps> = ({
   selectedAnswer,
 }) => {
   return (
-    <Box  className="bg-white shadow-md rounded-lg p-6 w-full">
-      <VStack gap={4} align="center">
+    <Box  className="bg-white shadow-md rounded-lg p-4 w-full">
+      <VStack gap={2} align="center">
         {/* Image Display */}
         <Image src={imageUrl} alt="Question" boxSize="250px" objectFit="contain" />
 
