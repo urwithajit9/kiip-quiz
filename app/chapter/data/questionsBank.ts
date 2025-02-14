@@ -34,7 +34,7 @@ export const questionBankALL:QuestionBank = {
       {question_type:"image", question:"/quiz_images/chapter1/temple.jpg",options:["사원","집","궁전","병원"], correctAnswer:"사원"},
       { question_type: "text", question: "해산물", options: ["Food", "Sea", "Sea Food", "Meet"], correctAnswer: "Sea Food" },
       { question_type: "text", question: "벚꽃", options: ["Spring", "Flower", "Cherry Blossom", "Garden"], correctAnswer: "Cherry Blossom" },
-      {question_type:"text", question:"감",options:["감이라 하다","감이라고 하다", "감나무의" , "감나무의 하다" ], correctAnswer:"감이라고 하다"},
+      {question_type:"text", question:"감 _____ (이라고 하다 / 라고 하다 )",options:["감이라 하다","감이라고 하다", "감나무의" , "감나무의 하다" ], correctAnswer:"감이라고 하다"},
       {question_type:"text",question:"이 음식을 베트남 말로 뭐________?",options:["라고", "라고 해요", "라가고 해요", "나고 해요" ], correctAnswer:"라고 해요"},
       {question_type:"text", question: "고향의 공기는 깨끗합니다.", options:["Hometown is beautiful.","Hometown air is clean.", "He live in hometown.", "I am going hometwon."], correctAnswer:"Hometown air is clean."}
     ],
